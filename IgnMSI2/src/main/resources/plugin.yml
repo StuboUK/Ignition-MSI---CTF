@@ -1,0 +1,84 @@
+name: IgnitionMSI
+version: ${project.version}
+main: uk.txsn.stubouk.ignition.msi.ignitionmsi.IgnitionMsi
+api-version: 1.16
+prefix: IGN>
+authors: [StuboUK]
+description: Ignition Integration with Paper
+website: https://txsn.uk
+commands:
+  setredref:
+    description: Sets the position of the refinery.
+    usage: /redrefpos
+    permission: txsn.refpos
+    permission-message: You don't have <permission>
+  setredxp:
+    description: Sets the position of the XP Generator.
+    usage: /redrefxp
+    permission: txsn.xppos
+    permission-message: You don't have <permission>
+  setredcarepackage:
+    description: Sets the position of the XP Generator.
+    usage: /redrefxp
+    permission: txsn.xppos
+    permission-message: You don't have <permission>
+  setbluecarepackage:
+    description: Sets the position of the XP Generator.
+    usage: /redrefxp
+    permission: txsn.xppos
+    permission-message: You don't have <permission>
+  saveconfig:
+    description: Saves the current CTF config to file.
+    usage: /saveconfig
+    permission: txsn.saveconfig
+    permission-message: You don't have <permission>
+  setredrespawnpoint:
+    description: Sets the position of the death room for Nostromo.
+    usage: /setredrespawnpoint
+    permission: txsn.spawnset
+    permission-message: You don't have <permission>
+  setredspawnpoint:
+    description: Sets the spawn point of Nostromo if no bed spawn set.
+    usage: /setredspawnpoint
+    permission: txsn.spawnset
+    permission-message: You don't have <permission>
+  setbluerespawnpoint:
+    description: Sets the position of the death room for Elysium.
+    usage: /setbluerespawnpoint
+    permission: txsn.spawnset
+    permission-message: You don't have <permission>
+  setbluespawnpoint:
+    description: Sets the spawn point of Elysium if no bed spawn set.
+    usage: /setbluespawnpoint
+    permission: txsn.spawnset
+    permission-message: You don't have <permission>
+  setblueref:
+    description: Sets the position of the refinery.
+    usage: /redrefpos
+    permission: txsn.refpos
+    permission-message: You don't have <permission>
+  setbluexp:
+    description: Sets the position of the XP Generator.
+    usage: /redrefxp
+    permission: txsn.xppos
+    permission-message: You don't have <permission>
+  forcecarepackage:
+    description: Forces a care package drop.
+    usage: /forcecarepackage
+    permission: txsn.forcecarepackage
+    permission-message: You don't have <permission>
+  gamestate:
+    description: Changes the state of the game.
+    usage: /gamestate
+    permission: txsn.gamestate
+    permission-message: You don't have <permission>
+  setblueteamflag:
+    description: Sets the blue flag location.
+    usage: /setblueteamflag
+    permission: txsn.flagset
+    permission-message: You don't have <permission>
+  setredteamflag:
+    description: Sets the red flag location.
+    usage: /setredteamflag
+    permission: txsn.flagset
+    permission-message: You don't have <permission>
